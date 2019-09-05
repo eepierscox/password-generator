@@ -1,11 +1,11 @@
 # Password Generator
 
-The `password-generator.php` script generates a password based on given needs.
+The `password-generator` script generates a password based on given needs.
 
 ## Usage
 
 ```bash
-php password-generator.php --length=<length>
+password-generator --length=<length>
 ```
 
 ### Password Length (`--length`)
@@ -16,7 +16,7 @@ the default of `12` will be used instead.
 
 ## Example
 ```bash
-php password-generator.php --length=32
+password-generator --length=32
 ```
 
 Which would output something similar to:
